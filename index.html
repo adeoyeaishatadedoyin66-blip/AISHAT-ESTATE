@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .house {
+        border: 2px solid black;
+        background-color: rgb(255, 238, 0);
+        color: black;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0 0 0 0.5);
+        overflow: hidden;
+        margin: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        /* padding: 16px; */
+      }
+      .house:hover {
+        box-shadow: 0px 4px 8px rgba(189, 25, 25, 0.7);
+        transform: scale(1.02);
+      }
+      .btn {
+        background-color: rgb(22, 37, 173);
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+        border: none;
+      }
+      .house img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+      .house-body {
+        font-size: 18px;
+        padding: 0 10px 0 10px;
+      }
+      .house-1 {
+        font-size: 20px;
+        padding: 8px 8px 15px;
+      }
+      .house-text {
+        font-size: 15px;
+        color: #555555;
+      }
+      .house-grid {
+        display: grid;
+        /* border: 1px solid green; */
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      }
+      .prize {
+        border: 10px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 0 15px 15px 15px; */
+      }
+      .aishat {
+        /* background-color: rgb(229, 255, 0); */
+        background-color: rgb(255, 238, 0);
+        text-align: center;
+        padding-block: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .estate {
+        font-family: sans-serif;
+        width: 70ch;
+        text-align: center;
+        font-size: 18px;
+      }
+      .estate-wrap {
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="aishat">AISHAT ESTATE</h2>
+    <div class="estate-wrap">
+      <p class="estate">
+        Aishat estate is a good estate for you, we will give you 20% discount
+        and you can pay 3 times. <br />
+        JUST BUY FROM US YOU WON'T REGRET IT.
+      </p>
+    </div>
+    <div class="house-grid">
+      <div class="house">
+        <img
+          src="https://i.pinimg.com/736x/c4/38/77/c4387768761e1166f68c4b6d880f67ed.jpg"
+          alt="House"
+        />
+        <div class="house-body">
+          <h3 class="house-1">ISLAND HOUSE</h3>
+          <p class="house-text">
+            Island house is good to stay in and the surroundings is worthy to
+            stay in.
+          </p>
+          <div class="card-footer">
+            <button class="btn">BUY NOW</button>
+            <p class="prize">$200,000</p>
+          </div>
+        </div>
+      </div>
+      <div class="house">
+        <img
+          src="https://i.pinimg.com/736x/11/17/7b/11177b0cd22d9841def3ff8c9ebb6cef.jpg"
+          alt="House"
+        />
+        <div class="house-body">
+          <h3 class="house-1">ISLAND HOUSE</h3>
+          <p class="house-text">
+            Island house is good to stay in and the surroundings is worthy to
+            stay in.
+          </p>
+          <div class="card-footer">
+            <button class="btn">BUY NOW</button>
+            <p class="prize">$250,000</p>
+          </div>
+        </div>
+      </div>
+      <div class="house">
+        <img
+          src="https://i.pinimg.com/1200x/5e/e1/db/5ee1dbaf2d2bd35010ff264830933837.jpg"
+          alt="House"
+        />
+        <div class="house-body">
+          <h3 class="house-1">ISLAND HOUSE</h3>
+          <p class="house-text">
+            Island house is good to stay in and the surroundings is worthy to
+            stay in.
+          </p>
+          <div class="card-footer">
+            <button class="btn">BUY NOW</button>
+            <p class="prize">$250,000</p>
+          </div>
+        </div>
+      </div>
+      <div class="house">
+        <img
+          src="https://i.pinimg.com/736x/a7/1c/72/a71c72a3bd6fd40a2b162716b8acbca8.jpg"
+          alt="House"
+        />
+        <div class="house-body">
+          <h3 class="house-1">ISLAND HOUSE</h3>
+          <p class="house-text">
+            Island house is good to stay in and the surroundings is worthy to
+            stay in.
+          </p>
+          <div class="card-footer">
+            <button class="btn">BUY NOW</button>
+            <p class="prize">$150,000</p>
+          </div>
+        </div>
+      </div>
+      <div class="house">
+        <img
+          src="https://i.pinimg.com/736x/74/d6/e1/74d6e1c108c45b0139cdb76bf82761a3.jpg"
+          alt="House"
+        />
+        <div class="house-body">
+          <h3 class="house-1">ISLAND HOUSE</h3>
+          <p class="house-text">
+            Island house is good to stay in and the surroundings is worthy to
+            stay in.
+          </p>
+          <div class="card-footer">
+            <button class="btn">BUY NOW</button>
+            <p class="prize">$250,000</p>
+          </div>
+        </div>
+      </div>
+      <div class="house">
+        <img
+          src="https://i.pinimg.com/1200x/12/82/1a/12821a0ed6d6f7e0f04c7853fb71793a.jpg"
+          alt="House"
+        />
+        <div class="house-body">
+          <h3 class="house-1">ISLAND HOUSE</h3>
+          <p class="house-text">
+            Island house is good to stay in and the surroundings is worthy to
+            stay in.
+          </p>
+          <div class="card-footer">
+            <button class="btn">BUY NOW</button>
+            <p class="prize">$350,000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
